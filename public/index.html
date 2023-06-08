@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+
+  <!-----------------------countDown ravi bhai------------------------------->
+
+<!--   <script>
+    // let time = prompt("Enter time");
+    let countDownDate = new Date().getTime() + (60 * 01 * 05 * 1000);
+    
+    let x = setInterval(function () {
+      let now = new Date().getTime();
+      let timeLeft = countDownDate - now;
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((timeLeft / 1000 / 60) % 60);
+      const seconds = Math.floor((timeLeft / 1000) % 60);
+      document.getElementById("root").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      if (timeLeft <= 0) {
+        clearInterval(x);
+        document.write("Count Down Finished");
+      }
+    }, 1000);
+  </script> -->
+
+
+  <!---------------------------------------------------------------------->
+
+
+  <!-----------------------TIME GREETING------------------------------->
+  <!-- <span>Enter your Time</span>
+    <input oninput="onclickhandler(this)"  type="time" id="source">
+    <button onclick=ansHandle()>Click</button>
+    <br>
+    <span>Yor Ans </span>
+    <div id="result" style="color:green">HEAR</div> -->
+
+  <!-- <script>
+      let source = document.getElementById("source");
+      let result = document.getElementById("result");
+      let temp
+      function onclickhandler(e) {
+      let jj = e.value
+      console.log(typeof jj)
+      temp = jj.slice(0,2)
+      console.log(temp)
+      if (temp < 12) {
+        console.log("good morning");
+        return result = "good morning"
+      } else if (temp < 18) {
+        console.log("good afternoon");
+        return result = "good afternoon"
+      } else {
+        console.log("good evening");
+        return result = "good evening"
+      }
+    }
+    const ansHandle = () => {
+    document.getElementById("result").innerHTML = result
+    }
+    </script> -->
+  <!-----------------------TIME GREETING------------------------------->
+
+</body>
+
+</html>

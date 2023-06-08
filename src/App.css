@@ -1,0 +1,93 @@
+/* sech board style */
+
+/* .whiteBox {
+  width: 170px;
+  height: 170px;
+  border: 1px solid black;
+  display: inline-block; 
+  margin: -2px; 
+  justify-content: space-between;
+  align-items: center;
+}
+.blackBox {
+  width: 170px;
+  height: 170px;
+  border: 1px solid black;
+  display: inline-block; 
+  margin: -2px; 
+  background-color: black; 
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.App {
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.header {
+  margin: 5px 20px;
+  padding: 0px 10px 0px 10px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px grey;
+  border-radius: 5px;
+}
+.navHeader {
+  margin: 0px 0px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: sticky;
+  background-color: rgb(138, 197, 197);
+  color: rgb(247, 244, 250);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px grey;
+}
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
+.active {
+  border-bottom: 5px solid rgb(138, 138, 184);
+  border-radius: 15px;
+}
+.img {
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+}
+.data {
+  margin: 5px 20px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px grey;
+  border-radius: 5px;
+}
+/* use Context */
+.ComponentA {
+  padding: 20px;
+  background-color: aqua;
+}
+.ComponentB {
+  padding: 20px;
+  background-color: rgb(41, 67, 107);
+}
+.ComponentC {
+  padding: 20px;
+  background-color: rgb(82, 146, 88);
+}

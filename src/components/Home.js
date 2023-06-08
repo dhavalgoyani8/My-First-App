@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <>
-      <h1>Home</h1>   
+      <h1>this is home page</h1>   
     </>
   );
 }
